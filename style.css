@@ -1,0 +1,29 @@
+* {
+  background-color: rgba(219, 193, 23, 0.064);
+}
+#calc {
+  border: 2px solid rgba(0, 0, 0, 0.315);
+  padding: 5px 5px;
+  margin: 5px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+#result {
+  padding: 5px 5px;
+  border: 2px solid rgba(0, 0, 0, 0.315);
+  font-size: large;
+  border-radius: 5px;
+  margin: 5px;
+  width: 90%;
+}
+#button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.my-button {
+  margin: 5px;
+  padding: 5px 5px;
+  width: 55px;
+  height: 55px;}
